@@ -17,7 +17,7 @@ public class Idade extends Pessoa implements Condicao_Vac{
 	@Override
 	public int condicao(int i) {
 		
-		if(i >=10 && i <= 19) 
+		if(i >=18 && i <= 19) 
 		{
 			resultado = 1;
 		}
