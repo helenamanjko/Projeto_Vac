@@ -22,24 +22,24 @@ package Project_Vac;
 			
 			int resultado;
 			
-			if(i == 1) {
+			if(i == 1) {		//Área da Saúde
+				resultado = 5;
+			}
+			else if (i == 2)	//Motoristas/Cobrador
+			{
 				resultado = 4;
 			}
-			else if (i == 2)
+			else if (i == 3)	//Profissional da Educação
 			{
 				resultado = 3;
 			}
-			else if (i == 3)
+			else if (i == 4)	//Profissional da Segurança Pública
 			{
 				resultado = 2;
 			}
-			else if (i == 4)
-			{
-				resultado = 1;
-			}
 			else
 			{
-				resultado = 0;
+				resultado = 0;	//Outros ou Nenhum
 			}
 			return resultado;	
 		}
